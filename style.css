@@ -1,0 +1,569 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: roboto;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.body1{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.headerblur{
+    z-index: -1;
+    position: fixed;
+    top: -100px;
+    left: -150px;
+    width: 300px;
+    height: 300px;
+    background-color : rgb(225, 250, 246);
+    border-radius: 1000px;
+    filter: blur(3.5rem);
+    box-shadow: 5px 10px 8px 100px rgb(230, 238, 237);
+}
+
+nav{
+    width: 99%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    justify-content: space-between;
+    color:rgb(141, 142, 142)
+    
+}
+
+nav h2{
+    font-size: 2rem;
+    color: rgba(84, 189, 149, 1);
+    height: 30px;
+    width: 160px;
+}
+.active{
+    color: black;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    padding-right: 20px;
+}
+
+.navlogin{
+    display: flex;
+    align-items: center;
+}
+
+.navlogin p{
+    padding-right: 10px;
+}
+
+.navlogin button{
+    background-color: 
+    rgba(84, 189, 149, 1);
+    border: none;
+    padding: 7px 10px;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 10px;;
+}
+.herosection{
+    padding: 100px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.herosection h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.herosection img{
+    width: 340px;
+    padding-top: 20px;
+}
+
+.herosection p{
+    padding-top: 40px;
+    font-size: 0.9rem;
+}
+
+.herosectionarea2{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+.herosectionarea2 button{
+    margin-right: 20px ;
+    background: rgba(84, 189, 149, 1);
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 30px;
+
+}
+
+.herosectionarea2 img{
+    padding-top: 0px;
+    margin-right: 20px
+}
+
+.herosectionarea2 p{
+    padding-top: 0px;
+     
+}
+
+.heroside2 img{
+    width: 530px;
+    position: relative;
+    /* padding-left: 100px; */
+}
+
+.headerblur2{
+    z-index: -1;
+    position: absolute;
+    top: 100px;
+    right: -90px;
+    width: 300px;
+    height: 700px;
+    background-color : rgb(225, 250, 246);
+    border-radius: 1000px;
+    filter: blur(3.5rem);
+    box-shadow: 5px 10px 8px 100px rgb(230, 238, 237);
+}
+
+
+/* LOGOS SECTION */
+
+.logosection P{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.logosection img{
+    width: 900px;
+}
+.logosection{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+/* SUPPORT SECTION */
+
+
+.supportsection{
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+}
+.supportsectionarea1 H2{
+    font-weight: 500;
+    font-size: 2.6rem;
+ 
+}
+
+.supportsectionarea1 p{
+    padding-top: 20px;
+    font-size: 0.8rem;
+}
+
+.starratingsection img{
+    width: 100px
+}
+
+.starratingsection{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 250px
+}
+
+.supportsectionarea2area1 h3{
+padding-bottom: 10px;
+
+}
+.supportsectionarea2area1{
+    display: flex;
+    padding-bottom: 30px;
+}
+.supportsectionarea2area1 img{
+    padding-right: 20px;
+    background-color: white;
+    padding-right: 20px;
+}
+
+/* OUR FEATURES */
+
+.features{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+
+.features h3{
+    font-size: 2rem;;
+}
+
+.features button{
+    background-color:rgba(84, 189, 149, 1);
+    border: none;
+    width: 110px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    color: white;
+}
+
+/* FEATURE AND COLLAORATION */
+.featureandcollaoration{
+    background-color: #F5F5F5;
+    
+}
+/* COLLAORATION, DAILY...TAGS SECTION */
+
+.collaoration{
+    position: relative;
+}
+
+.collaorationinnerout1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+
+.collaorationinnerout2{
+    z-index: 3;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.collaorationinnerout2 img{
+    width: 300px;
+}
+
+.collaorationinner2A{
+    position: relative;
+    
+}
+
+/* collorationnner2 SIDE IMAGES */
+
+.collorationnner2imga{
+    position: absolute;
+    top: 20px;
+    left: -70px
+}
+
+.collorationnner2imgb{
+    position: absolute;
+    top: 80px;
+    right: -70px
+}
+
+.collorationnner2imgc{
+    position: absolute;
+    bottom: 25px;
+    left: -70px
+}
+
+.collorationnner2imgd{
+    position: absolute;
+    bottom: 145px;
+    left: -40px
+}
+
+.collaorationinner img{
+    width: 200px;
+}
+
+.collaorationinner{
+    width: 210px;
+    z-index: 2;
+}
+
+.collaorationinner2{
+    z-index: 2;
+}
+
+.collaorationinner h3{
+    font-size: 1.2rem;
+}
+
+.collaorationinner p{
+    font-size: 0.7rem;
+}
+
+.headerblur3{
+    z-index: 1;
+    position: absolute;
+    top: -100px; 
+    left: -200px;
+    width: 350px;
+    height: 700px;
+    background-color: rgb(254, 226, 226);
+    border-radius: 1000px;
+    filter: blur(5.5rem);
+    box-shadow: 5px 10px 8px 100px rgb(230, 238, 237);
+}
+.headerblur4{
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    right: -90px;
+    width: 300px;
+    height: 1000px;
+    background-color : rgb(225, 250, 246);
+    border-radius: 1000px;
+    filter: blur(3.5rem);
+    box-shadow: 5px 10px 8px 100px rgb(230, 238, 237);
+}
+
+/* CHOOSE A PLAN SECTION */
+
+.chooseplansection{
+    z-index: 3;
+    display: grid;
+    /* grid-template-columns: auto auto;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px; */
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.chooseplansection h2{
+    font-size: 2.5rem;
+}
+
+.chooseplansection p{
+    font-size: 0.7rem;
+    padding: 20px;
+}
+
+.choicesectioninner1{
+    padding: 5px 8px;
+    border-radius:10px;
+    width: 270px;
+    margin: auto;
+    background-color: white;
+    align-items: center;
+}
+
+.choicesectioninner1 button{
+    padding: 8px 25px;
+    margin-right: 10px;
+    border: none;
+}
+.choicesectioninner1 button{
+    background-color: white;
+}
+
+.choicesectioninner1 button:hover{
+    transition: 0.5s;
+    background-color: rgba(84, 189, 149, 1);
+    border-radius: 10px;
+    color: white;
+}
+
+.choicesectioninner1 .active{
+    background-color: rgba(84, 189, 149, 1);
+    border-radius: 10px;
+    color: white;
+}
+
+.choicesectioninner2{
+    padding-top: 50px;
+    z-index: 3;
+}
+
+.choicesectioninner2 img{
+    width: 300px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.choicesectioninner2 img:hover{
+    z-index: 4; 
+    transition: 0.5s;
+    transform: scale(1.2);
+    
+}
+
+/* FOOTER SECTION */
+
+footer{
+    background-color: rgba(22, 28, 40, 1);
+    padding: 30px 0px;
+    
+}
+
+.footerinner{
+    width: 75%;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footersectionA h2{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+
+.footersectionA p{
+    font-size: 0.7rem;
+    padding: 20px 0px;
+    font-weight: 200;
+}
+.footersectionAimages{
+    padding-top: 30px;
+}
+.footersectionAimages img{
+    width: 45px;
+}
+
+.biccassector{
+    padding-top: 30px;
+}
+
+.inputinner{
+    align-items: center;
+    position: relative;
+    padding: 20px 0px;
+   
+}
+
+.biccassector input{
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    /* padding-top: 20px; */
+    border: solid 1px white;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 20px 0px;
+    position: relative;
+}
+.biccassector input::placeholder{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.inputinner img{
+    position: absolute;
+    margin-top: 3px;
+    margin-right: 3px;
+    right: 10px;
+    z-index: 4;
+    background-color: 
+    rgba(84, 189, 149, 1);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.footersectionB{
+    text-align: center;
+    
+}
+
+.footersectionB form h2{
+    margin: auto;
+    width: 105px;
+    font-size: 1.2rem;
+    padding: 20px 0px;
+}
+
+.footersectionB form img{
+    margin: auto;
+    width: 50px;
+}
+
+.footersectionB form{
+    background: rgba(34, 41, 56, 1);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.forminner{
+    text-align: left;
+    width: 300px;
+    margin: auto;
+}
+
+.footersectionB form input{
+    width: 300px;
+    height: 37px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+}
+
+.footersectionB form button{
+    width: 300px;
+    height: 37px;
+    border-radius: 5px;
+    background: rgba(84, 189, 149, 1);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.footersectionB form button:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+.formafter img{
+    width: 370px;
+    padding-top: 20px;
+}
+
+#formstarttrial{
+    font-size: 0.7rem;
+    position: absolute;
+    right: 55px;
+    padding-top: 10px;
+}
+
+.formafter2 img{
+    width: 180px;
+    position: absolute;
+    padding-top: 20px;
+}
